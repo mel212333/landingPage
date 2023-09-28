@@ -1,20 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,400&display=swap");
+
+/* resetar */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
-body {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-nav {
+/*header*/
+.header {
+  height: 80px;
+  width: 100%;
+  padding: 0px 50px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  background-color: rgb(11, 8, 95);
-  padding: 1rem;
+  justify-content: space-between;
 }
 
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 100px;
+}
+
+.header img {
+  height: 80%;
+}
+
+.navbar_link {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+}
+/*main*/
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*hero*/
+#hero {
+  align-items: center;
+  display: flex;
+  padding: 70px 0px;
+  width: 90%;
+  justify-content: space-around;
+}
+
+.hero-presentation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+
+.hero-presentation h1 {
+  font-weight: 700;
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-presentation p {
+  font-weight: 300;
+  font-size: 14px;
+  max-width: 350px;
+  color: black;
+}
+
+.button-container {
+  display: flex;
+  gap: 15px;
+}
+
+.button-container a {
+  text-decoration: none;
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.primary-btn {
+  background-color: black;
+  color: white;
+}
+
+.alt-btn {
+  background-color: white;
+  color: black;
+}
+
+.hero-img {
+  width: 475px;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  max-width: 850px;
+  padding: 30px 0px;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* 
 ul {
   list-style: none;
   display: flex;
@@ -53,9 +149,9 @@ main {
   align-items: center;
   width: 100%;
   background-color: #f9fafb;
-}
+} */
 
-#hero {
+/* #hero {
   padding: 70px 0;
   max-width: 1200px;
   display: flex;
@@ -76,6 +172,8 @@ main {
   font-weight: 800;
   color: rgb(65, 44, 18);
   min-width: 500px;
+  background: linear-gradient(to rop, #30cfd0);
+  color: transparent;
 }
 
 .hero-info p {
@@ -114,4 +212,4 @@ main {
 #about p {
   padding: 20px;
   max-width: 80%;
-}
+} */
